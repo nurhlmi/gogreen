@@ -1,0 +1,201 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-family: century gothic;
+	padding-bottom: 10%;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+b {
+	font-size: 20px;
+}
+
+ul {
+	padding-right: 9%;
+	padding-left: 10%;
+}
+
+li.logo {
+	display: inline-block;
+	padding-left: 0px;
+}
+
+li.login {
+	display: inline-block;
+	padding-right: 20px;
+	float: right;
+}
+
+.left {float: left;}
+.right {float: right;}
+
+button.guru {
+	color: white;
+	border: none;
+	width: 160px;
+	height: 40px;
+	padding: 5px;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #c0392b;
+	background-color: #e74c3c;
+}
+button.guru:hover {
+	background-color: #c0392b;
+}
+
+button.siswa {
+	color: white;
+	border: none;
+	width: 160px;
+	height: 40px;
+	padding: 5px;
+	font-size: 17px;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #2980b9;
+	background-color: #3498db;
+}
+button.siswa:hover {
+	background-color: #2980b9;
+}
+
+.top {
+	padding-top: 100px;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	background-color: #16a085;
+}
+
+.body {
+	height: 80vh;
+	background-color: #1abc9c;
+}
+
+.container {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.description {
+	padding-top: 100px;
+	padding-bottom: 40px;
+}
+
+.about {
+	padding-top: 150px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.about-img {
+	float: left;
+	padding-right: 20px;
+}
+.about-text {
+	text-align: justify;
+	padding-top: 40px;
+	color: #1abc9c;
+}
+
+.karakter2 {
+	width: 400px
+}
+
+.input {
+	margin: 20px;
+}
+.daftar {
+	padding-top: 100px;
+	background-color: #1abc9c;
+}
+
+.form-daftar {
+	color: black;
+	width: 400px;
+	height: auto;
+	padding: 50px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.form-input {
+	width: 95%;
+	height: 40px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 3px;
+	border: solid 1px #bdc3c7;
+}
+
+.form-textarea {
+	width: 95%;
+	height: 40px;
+	padding: 10px;
+	border-radius: 3px;
+	font-family: century gothic;
+	border: solid 1px #bdc3c7;
+}
+
+.form-submit {
+	color: white;
+	width: 100%;
+	height: 70px;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	font-size: 17px;
+	background-color: #1abc9c;
+}
+
+.status {
+	padding: 20px;
+	width: 500px;
+	height: 200px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+}
+
+@media screen and (max-width: 800px) {
+	.body {
+		height: 0;
+	}
+	
+    .karakter {
+        width: 100%;
+    }
+	
+	.karakter2 {
+		width: 100%;
+	}
+	
+	.daftar {
+		padding-top: 0;
+		padding-bottom: 0;
+		background-color: white;
+	}
+	.form-daftar {
+		width: 100%;
+		padding: 0;
+		margin-top: 20px;
+	}
+	.form-submit {
+		width: 100%;
+		border-radius: 0;
+	}
+	.form-input {
+		width: 80%;
+	}
+	.input {
+		margin: 20px 0 20px 0;
+	}
+}
